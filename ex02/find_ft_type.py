@@ -1,4 +1,4 @@
-def all_thing_is_obj(object: any) -> int:
+def all_thing_is_obj(object: object) -> int:
     if isinstance(object, str):
         print(f"{object} is in the kitchen : {type(object)}")
     else:
